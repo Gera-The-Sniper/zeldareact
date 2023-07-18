@@ -1,0 +1,15 @@
+#direccion {
+    position: absolute;
+    left: 30px;
+    width: auto;
+    height: 100px;
+    display: flex;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#pag {
+    font-size: 15px;
+}

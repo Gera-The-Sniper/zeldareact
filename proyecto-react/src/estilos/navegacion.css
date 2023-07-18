@@ -1,0 +1,53 @@
+
+@font-face {
+  font-family: 'Angkatan';
+  src: url('../fuentes/aAngkatanBersenjata.otf') format('truetype'),
+    url('../fuentes/aAngkatanBersenjata.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Adarsh';
+  src: url('../fuentes/Adarsh\ Sans\ Italic.otf') format('truetype'),
+    url('../fuentes/Adarsh\ Sans\ Regular.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+.navegacion {
+  position: relative;
+  background-color: rgb(41, 118, 41);
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 10px 0px;
+  background-image: url('../imagenes/fondo.png');
+}
+
+.titulo-pagina {
+  font-family: 'Angkatan';
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  align-self: center;
+}
+
+#logo {
+  height: 50%;
+  margin: 20px 10px 20px 10px;
+}
+
+.iconosn {
+  position: absolute;
+  width: 350px;
+  right: 1px;
+  top: 10px;
+}
+
+.persona {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}

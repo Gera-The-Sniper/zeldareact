@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 18px;
+  background-color: white;
+  display: flex;
+}
+
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  color: white;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor-principal {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.contenedor-opciones {
+  background-color: white;
+  position: relative;
+  height: auto;
+  width: 25vw;
+  margin-top: 20px;
+  border-right-color: black;
+  border-right-width: 5px;
+  border-right-style: solid;
+}
+
+.contenedor-productos {
+  background-color: white;
+  position: relative;
+  top: 60px;
+  width: 70vw;
+  height: auto;
+}
+
+.parte-derecha {
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+}
+
+.caja1, .caja2, .caja3 {
+  width: 400px;
+  height: 600px;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
